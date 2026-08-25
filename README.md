@@ -18,6 +18,15 @@ The whole product is white-label: brand name, logo, colors, footer, watermark,
 disclaimer, and every detection/coaching threshold live in `config.yaml` — no
 code edits needed to rebrand or retune.
 
+## CaddieInsight v2
+
+The bag-first product — measured per-club carry distances, gapping analysis,
+a caddie recommendation engine, and the Clubhouse community — lives in its
+own repository, [`CaddieInsight-v2`](https://github.com/kylejames0513-bot/CaddieInsight-v2)
+(package `caddieinsight`). It shares the brand, the INDUSTRY design grammar,
+and the self-hosted type with this repo but has no code dependency on it.
+This repository remains the swing-analysis product.
+
 ## Project foundation
 
 CaddieInsight is the customer-facing product name. The Python distribution,
